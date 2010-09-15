@@ -1,0 +1,9 @@
+background no
+out_to_x no
+out_to_console yes
+update_interval 1
+total_run_times 0
+use_spacer none
+
+TEXT
+~ ^fg(\#6d6d6d)MPD: ^fg(\#dadada)${mpd_smart} |^fg(\#6d6d6d)!CPU: ^fg(\#dadada)${cpu cpu1}% ^fg(\#6d6d6d)?CPU: ^fg(\#dadada)${cpu cpu2}% |^fg(\#6d6d6d)&RAM: ^fg(\#dadada)${mem}|^fg(\#6d6d6d),HOME: ^fg(\dadada)${fs_used_perc /home}%|^fg(\#6d6d6d)+VOL: ^fg(\#dadada)${mixer}% |^fg(\#6d6d6d)'^fg(\#dadada)${time %d-%m-%Y}^fg(\#6d6d6d)///^fg(\#dadada)${time %r}|
